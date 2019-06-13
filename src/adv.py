@@ -84,7 +84,7 @@ while True:
             break
 
         player.current_room = try_direction(s, player.current_room)
-        
+
     elif len(s) == 2:
         #the user passed us a two word command
         #grab first word
